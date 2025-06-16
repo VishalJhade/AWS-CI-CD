@@ -11,7 +11,7 @@ jobs:
               uses: action/checkout@v2
     
             - name: "setup nodejs"
-              used: action/setup-nodejs@v4
+              uses: action/setup-nodejs@v4
               with: 
                 node-version:"21"
     
